@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>McStone.lt - Minecraft Serveris</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="McStone.lt lietuviškas Minecraft 1.19.4 serveris. IP: mcstone.srw.lt" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">M</div>
+      <span><b>McStone</b>.lt</span>
+    </div>
+
+    <nav>
+      <a href="#home">Pagrindinis</a>
+      <a href="#about">Apie</a>
+      <a href="#rules">Taisyklės</a>
+      <a href="#store">Paslaugos</a>
+      <a href="#discord">Discord</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="heroText">
+        <p class="tag">LIETUVIŠKAS MINECRAFT SERVERIS</p>
+        <h1>McStone.lt</h1>
+        <p class="subtitle">Survival • Ekonomika • Eventai • Bendruomenė</p>
+
+        <div class="serverBox" onclick="copyIP()">
+          <span>Serverio IP</span>
+          <strong id="serverIP">mcstone.srw.lt</strong>
+          <small>Paspausk, kad nukopijuotum</small>
+        </div>
+
+        <div class="actions">
+          <a class="btn primary" href="minecraft://?addExternalServer=McStone|mcstone.srw.lt">Žaisti dabar</a>
+          <a class="btn" href="https://discord.gg/xH5VDRtM7v" target="_blank">Discord</a>
+        </div>
+
+        <p class="version">Versija: <b>1.19.4</b></p>
+      </div>
+
+      <div class="heroCard">
+        <h3>Serverio informacija</h3>
+        <div class="stat">
+          <span>IP</span>
+          <b>mcstone.srw.lt</b>
+        </div>
+        <div class="stat">
+          <span>Versija</span>
+          <b>1.19.4</b>
+        </div>
+        <div class="stat">
+          <span>Statusas</span>
+          <b class="online">Online</b>
+        </div>
+        <a class="wideBtn" href="https://discord.gg/xH5VDRtM7v" target="_blank">Prisijungti prie Discord</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>Kodėl McStone.lt?</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="icon">⛏️</div>
+          <h3>Survival</h3>
+          <p>Išgyvenk, statyk bazę, rink resursus ir tapk stipriausiu žaidėju.</p>
+        </div>
+        <div class="card">
+          <div class="icon">💰</div>
+          <h3>Ekonomika</h3>
+          <p>Prekyba, pinigai, darbai ir galimybė kilti serveryje.</p>
+        </div>
+        <div class="card">
+          <div class="icon">⚔️</div>
+          <h3>PvP</h3>
+          <p>Kovok su kitais žaidėjais ir įrodyk, kad esi geriausias.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🎁</div>
+          <h3>Eventai</h3>
+          <p>Reguliarūs eventai, prizai ir aktyvi bendruomenė.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="rules" class="section split">
+      <div>
+        <h2>Taisyklės</h2>
+        <ul class="rules">
+          <li>Nenaudok cheatų, xray ar kitų pranašumų.</li>
+          <li>Nespamink ir nereklamuok kitų serverių.</li>
+          <li>Gerbk administraciją ir kitus žaidėjus.</li>
+          <li>Nebugink ekonomikos ar serverio sistemų.</li>
+        </ul>
+      </div>
+      <div class="notice">
+        <h3>Reikia pagalbos?</h3>
+        <p>Prisijunk į Discord ir susisiek su komanda.</p>
+        <a href="https://discord.gg/xH5VDRtM7v" target="_blank">Atidaryti Discord</a>
+      </div>
+    </section>
+
+    <section id="store" class="section">
+      <h2>Paslaugos</h2>
+      <p class="muted">Čia gali vėliau įdėti Tebex arba kitą parduotuvės nuorodą.</p>
+
+      <div class="packages">
+        <div class="package">
+          <span class="badge">Populiaru</span>
+          <h3>VIP</h3>
+          <p class="price">4.99€</p>
+          <ul>
+            <li>VIP prefix</li>
+            <li>Papildomi namai</li>
+            <li>Spalvotas nick</li>
+          </ul>
+          <a href="https://discord.gg/xH5VDRtM7v" target="_blank">Pirkti per Discord</a>
+        </div>
+        <div class="package">
+          <span class="badge">Geriausia</span>
+          <h3>MVP</h3>
+          <p class="price">9.99€</p>
+          <ul>
+            <li>Visos VIP privilegijos</li>
+            <li>Daugiau komandų</li>
+            <li>Didesni limitai</li>
+          </ul>
+          <a href="https://discord.gg/xH5VDRtM7v" target="_blank">Pirkti per Discord</a>
+        </div>
+        <div class="package">
+          <span class="badge">Premium</span>
+          <h3>Legend</h3>
+          <p class="price">14.99€</p>
+          <ul>
+            <li>Visos MVP privilegijos</li>
+            <li>Išskirtinis prefix</li>
+            <li>Prioritetinis support</li>
+          </ul>
+          <a href="https://discord.gg/xH5VDRtM7v" target="_blank">Pirkti per Discord</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="discord" class="discord">
+      <h2>Prisijunk prie McStone bendruomenės</h2>
+      <p>Naujienos, pagalba, eventai ir žaidėjų pokalbiai vienoje vietoje.</p>
+      <a class="btn primary" href="https://discord.gg/xH5VDRtM7v" target="_blank">Prisijungti prie Discord</a>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2025 McStone.lt</span>
+    <span>IP: mcstone.srw.lt • Versija 1.19.4</span>
+  </footer>
+
+  <script>
+    function copyIP() {
+      navigator.clipboard.writeText("mcstone.srw.lt");
+      const box = document.querySelector(".serverBox small");
+      box.textContent = "IP nukopijuotas!";
+      setTimeout(() => box.textContent = "Paspausk, kad nukopijuotum", 1800);
+    }
+  </script>
+</body>
+</html>
